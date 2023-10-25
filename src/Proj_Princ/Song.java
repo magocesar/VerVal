@@ -19,4 +19,15 @@ public class Song {
     public int getId(){
         return this.id;
     }
+
+
+    public void exibirInfo(){
+        System.out.println("Id: " + this.id);
+        System.out.println("Título: " + this.title);
+        System.out.println("Artista: " + this.artist);
+        System.out.println("Álbum: " + this.album);
+        System.out.println("Duração: " + this.length_time);
+        System.out.println("Ano de lançameto: " + this.year);
+    }
+    
 }
